@@ -54,10 +54,12 @@ Multiple models were trained and compared:
 - Support Vector Machine (SVM)
   
 Hyperparameter Tuning
+
 Cross‑validated grid search identified the strongest models:
 Best Logistic Regression
 - C = 10, penalty = L2, solver = lbfgs
 - CV ROC AUC: 0.846
+  
 Best XGBoost (Top Performer)
 - learning_rate = 0.01
 - max_depth = 3
@@ -65,10 +67,12 @@ Best XGBoost (Top Performer)
 - subsample = 0.7
 - colsample_bytree = 0.7
 - CV ROC AUC: 0.850
+  
 Final Model Performance (Test Set)
 - ROC AUC: 0.847
 - Recall at default threshold (0.5): 50%
 - Recall at optimized threshold (0.25–0.30): 78–82%
+  
 Interpretation:
 Lowering the threshold significantly increases churn capture, which is often preferred in retention scenarios where missing a churner is more costly than contacting a non‑churner.
 
