@@ -2,9 +2,11 @@
 Predictive modeling and churn‑driver analysis using the Telco Customer Churn dataset from Kaggle (originally shared by the IBM community), covering exploratory analysis, feature engineering, model comparison, hyperparameter tuning, threshold optimization, and SHAP‑based interpretability.
 
 Project Overview
+
 This project builds and evaluates machine‑learning models to predict customer churn in the telecommunications industry. The goal is to identify high‑risk customers, understand the drivers behind churn, and provide actionable insights for retention strategies. The workflow includes exploratory analysis, preprocessing pipelines, model development, hyperparameter tuning, and SHAP‑based interpretability.
 
 Dataset Overview
+
 The dataset contains 7,043 customer records with demographic, service usage, contract, and billing information.
 Key characteristics:
 - Target variable: Churn (Yes/No)
