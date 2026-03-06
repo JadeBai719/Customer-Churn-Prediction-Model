@@ -23,19 +23,23 @@ Exploratory Data Analysis
 Churn Distribution
 - Churn is moderately imbalanced (≈26% churners).
 - Early‑lifecycle customers churn significantly more.
+
 Demographic Patterns
 - Gender shows no meaningful churn difference.
 - Customers without partners or dependents churn more.
 - Senior citizens churn slightly more than younger customers.
+
 Service‑Related Patterns
 - Customers without OnlineSecurity or TechSupport churn at much higher rates.
 - Fiber optic users churn more than DSL users, likely due to higher monthly charges.
 - Streaming services correlate with higher ARPU and slightly higher churn.
+
 Churn Rate by Category
 - Month‑to‑month contracts have the highest churn.
 - Two‑year contracts have the lowest churn.
 - Electronic check users churn more than any other payment method.
 - Automatic payments (credit card, bank transfer) correlate with lower churn.
+
 Numeric Feature Insights
 - Tenure: Highest churn in first few months; drops sharply after 1 year.
 - MonthlyCharges: Higher charges → higher churn (price sensitivity).
