@@ -16,6 +16,7 @@ Key characteristics:
 - Includes customer tenure, monthly charges, total charges, contract type, payment method, and service add‑ons
 - Contains 11 missing values in TotalCharges
 - CustomerID is non‑predictive and removed during preprocessing
+
 This dataset is publicly available on Kaggle as Telco Customer Churn.
 
 Exploratory Data Analysis
@@ -65,6 +66,7 @@ Multiple models were trained and compared:
 Hyperparameter Tuning
 
 Cross‑validated grid search identified the strongest models:
+
 Best Logistic Regression
 - C = 10, penalty = L2, solver = lbfgs
 - CV ROC AUC: 0.846
