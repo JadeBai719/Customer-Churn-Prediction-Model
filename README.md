@@ -85,6 +85,7 @@ Final Model Performance (Test Set)
 - Recall at optimized threshold (0.25–0.30): 78–82%
   
 Interpretation:
+
 Lowering the threshold significantly increases churn capture, which is often preferred in retention scenarios where missing a churner is more costly than contacting a non‑churner.
 
 Model Interpretability (SHAP)
@@ -96,6 +97,7 @@ SHAP analysis reveals the strongest churn drivers:
 - Payment method (electronic check → high churn)
 - OnlineSecurity / TechSupport (absence increases churn risk)
 - TotalCharges (proxy for customer lifetime value)
+
 These insights align with business intuition and support targeted retention strategies.
 
 Key Takeaways
