@@ -8,6 +8,7 @@ This project builds and evaluates machine‑learning models to predict customer 
 Dataset Overview
 
 The dataset contains 7,043 customer records with demographic, service usage, contract, and billing information.
+
 Key characteristics:
 - Target variable: Churn (Yes/No)
 - Churn rate: 26.5%
@@ -18,6 +19,7 @@ Key characteristics:
 This dataset is publicly available on Kaggle as Telco Customer Churn.
 
 Exploratory Data Analysis
+
 Churn Distribution
 - Churn is moderately imbalanced (≈26% churners).
 - Early‑lifecycle customers churn significantly more.
