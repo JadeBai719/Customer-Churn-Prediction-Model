@@ -48,6 +48,7 @@ Data Preprocessing
 - Train/test split applied before any transformations.
 
 Modeling and Evaluation
+
 Multiple models were trained and compared:
 - Logistic Regression
 - Random Forest
@@ -79,6 +80,7 @@ Interpretation:
 Lowering the threshold significantly increases churn capture, which is often preferred in retention scenarios where missing a churner is more costly than contacting a non‑churner.
 
 Model Interpretability (SHAP)
+
 SHAP analysis reveals the strongest churn drivers:
 - Contract type (month‑to‑month is highest risk)
 - Tenure (short tenure → high churn)
